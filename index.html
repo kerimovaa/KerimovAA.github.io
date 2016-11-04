@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Стеб</title>
+    <meta charset="UTF-8">
+    <title>Изучаем Jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <img src="lena.jpg" onclick="$('img').fadeOut(3000)"/>
+
     <script type="text/javascript">
-        for(var i=0; i< 100; i++){
-            alert("Нахуй пошел");
-        }
+        var test = $('div');
+
+
     </script>
+    <p class="test" onclick="$('img').fadeIn(3000)">Вернуть фотку</p>
 </body>
 </html>
