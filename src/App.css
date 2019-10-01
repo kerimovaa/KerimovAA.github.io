@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  padding: 2px;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  background: linear-gradient(177.02deg, #4836B0 0%, #37298C 100%);
+  padding: 20px;
+}
+
+.header__logo {
+  position: absolute;
+  margin-left: 150px;
+}
+
+.header__logo-oval {
+  position: relative;
+  top: -10px;
+  left: 36px;
+}
+
+.header__logo-menu {
+  position: relative;
+  top: -20px;
+  left: 80px;
+}
+
+.header__logo-text {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+nav {
+  margin-left: 60%;
+}
+
+.topnav {
+  position: absolute;
+  top: 10px;
+}
+
+.topnav-link {
+  color: #FFF;
+  padding-right: 32px;
+  cursor: pointer;
+}
+
+.topnav-notifications {
+  position: relative;
+  top: 3px;
+  right: 0;
+}
+
+.topnav-dropdown {
+  display: inline;
+  cursor: pointer;
+}
+
+.topnav-dropdown-text {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.topnav-dropdown-arrow {
+  padding-right: 12px;
+}
+
+.topnav-avatar {
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+
+main {
+  background: #F6F9FC;
+  width: 100%;
+  height: 640px;
+}
+
+footer {
+  width: 100%;
+  height: 84px;
+  background: #FFF;
+  padding: 32px;
+}
+
+.footer-nav {
+  margin-left: 135px;
+}
+
+.footer-nav-link {
+  padding-right: 32px;
+  color: #67758D;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
